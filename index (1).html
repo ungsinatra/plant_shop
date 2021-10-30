@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Plant Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <div id="header_logo">
+                    <div id="logo" data-scroll="#intro">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M38.1625,10.32c-0.88687,-0.02687 -1.78719,0.30906 -2.4725,0.9675c-1.03469,0.98094 -25.37,24.52344 -25.37,52.1375c0,17.45531 7.33688,31.02719 21.1775,39.56c0.01344,0.01344 -0.01344,0.09406 0,0.1075c1.63938,6.59781 2.75469,12.5775 1.8275,18.1675c-0.30906,1.88125 0.91375,3.56094 2.795,3.87c0.18813,0.04031 0.45688,0.1075 0.645,0.1075c1.65281,0 3.05031,-1.22281 3.3325,-2.9025c1.10188,-6.665 -0.12094,-13.34344 -1.8275,-20.3175c-0.87344,-3.02344 -2.08281,-5.99312 -3.1175,-9.1375c-4.89125,-14.87531 -10.52156,-31.65875 -2.795,-49.02c0.77938,-1.73344 2.87563,-2.49937 4.6225,-1.72c1.73344,0.77938 2.48594,2.78156 1.72,4.515c-6.65156,14.92906 -1.81406,29.71031 2.9025,44.075c0.33594,1.00781 0.645,2.01563 0.9675,3.01c0.92719,-0.9675 2.09625,-1.935 3.225,-2.795c4.20594,-3.14437 19.14844,-19.4575 15.48,-41.71c-3.17125,-19.22906 -20.02187,-37.0875 -20.7475,-37.84c-0.65844,-0.68531 -1.47812,-1.04812 -2.365,-1.075zM99.4375,69.1225c-2.39187,0 -4.82406,0.06719 -7.2025,0.3225c-16.0175,1.73344 -28.21875,7.88781 -36.12,18.1675c-12.77906,16.62219 -9.59437,38.01469 -9.46,38.915c0,0.04031 0,0.06719 0,0.1075c-10.26625,10.69625 -14.9425,20.08906 -15.265,20.7475c-0.83312,1.70656 -0.20156,3.78938 1.505,4.6225c0.48375,0.22844 0.99438,0.3225 1.505,0.3225c1.27656,0 2.52625,-0.71219 3.1175,-1.935c0.06719,-0.13437 3.85656,-7.68625 12.04,-16.77c7.74,-9.50031 18.01969,-20.07562 31.0675,-26.23c22.07781,-10.41406 45.16344,-9.72875 46.1175,-9.675c1.89469,0.06719 3.39969,1.65281 3.3325,3.5475c-0.06719,1.85438 -1.59906,3.3325 -3.44,3.3325c-0.06719,0 0.30906,-0.1075 -1.075,-0.1075c-4.4075,0 -23.77094,0.57781 -41.925,9.1375c-12.24156,5.76469 -22.05094,15.265 -29.3475,24.4025c1.08844,0.83313 1.97531,1.34375 2.2575,1.505c0.61813,0.33594 15.19781,8.17 33.755,8.17c2.33813,0 4.73,-0.18812 6.9875,-0.43c42.08625,-4.63594 63.08906,-44.84094 63.9625,-46.5475c0.65844,-1.30344 0.45688,-2.80844 -0.5375,-3.87c-1.075,-1.12875 -26.47187,-27.735 -61.275,-27.735z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="menu" href="#" data-scroll="#about">О нас</a>
+                    <a class="menu" href="#" data-scroll="#services">Услуги</a>
+                    <a class="menu" href="#" data-scroll="#advice">Консультация</a>
+                    <a class="menu" href="#" data-scroll="#contacts">Контакты</a>
+                </nav>
+
+                <button class="nav_toggle" id="nav_toggle" type="button">
+                    <span class="nav_toggle_item">Menu</span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="intro-inner">
+                    <h1 class="intro-title">Создайте свой зелёный уголок</h1>
+                    <h4 class="sub-title">
+                        <p>Хотите обрести место силы и вдохновения?</p>Свяжитесь с нами, и мы воплотим ваши желания в
+                        реальность
+                    </h4>
+                    <a class="video-button">Заказать проект</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section_header">
+                    <h3 class="section_sup">What we do</h3>
+                    <h2 class="section_title">Наша история</h2>
+                    <div class="section_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+
+                <div class="about">
+
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="img/1.jpg">
+                            </div>
+                            <div class="about_text">
+                                <h3>Комфорт</h3>Мы учтём образы жизни вас и вашей семьи, поэтому проводить время здесь
+                                будет приятно и комфортно.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="img/2.jpg">
+                            </div>
+                            <div class="about_text">
+                                <h3>Оригинальность</h3>Единственный и неповторимый дизайн
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="img/3.jpg">
+                            </div>
+                            <div class="about_text">
+                                <h3>Вдохновение</h3>Эстетика растений вдохновляет на новые идеи
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="statistics">
+            <div class="container">
+
+                <div class="stat">
+                    <div class="stat_item">
+                        <div class="stat_count">100+</div>
+                        <div class="stat_text">Выполненных проектов</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">100+</div>
+                        <div class="stat_text"> счастливых клиентов</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">24</div>
+                        <div class="stat_text">участника</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">10</div>
+                        <div class="stat_text">Выставок</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">3</div>
+                        <div class="stat_text">Офиса в городе</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section_header">
+                    <h3 class="section_sup">Services</h3>
+                    <h2 class="section_title">Наши услуги</h2>
+                </div>
+
+
+                <div class="services">
+                    <div class="services_item">
+                        <img class="services_img" src="img/4.jpg">
+                    </div>
+                    <div class="services_item">
+                        <div class="accord">
+                            <div class="accord_item" data-collapse="#wedo_1">
+                                <div class="accord_header">
+                                    <div class=accord_icon><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;">
+                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                font-weight="none" font-size="none" text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                                <g fill="#6a765a">
+                                                    <path
+                                                        d="M51.0625,20.49219l-2.6875,2.51953c0,0 -21.5,19.58935 -21.5,44.51172c0,28.40771 25.36328,40.81641 25.36328,40.81641l5.87891,2.85547l1.67969,-6.38281c0,0 1.38574,-5.79492 6.71875,-11.92578c5.33301,-6.13086 14.15137,-12.26172 30.23438,-12.26172c23.95654,0 40.66943,12.8706 45.85547,17.13281c-4.13623,5.79492 -19.54736,25.86719 -45.85547,25.86719c-11.98877,0 -20.00928,-2.60352 -24.85937,-4.70312c6.92871,-5.41699 14.10938,-8.48242 20.66016,-10.24609c13.81543,-3.71631 24.52344,-1.34375 24.52344,-1.34375l2.35156,-10.41406c0,0 -3.35937,-0.81885 -8.73437,-1.00781c-5.375,-0.18896 -12.82861,0.16797 -20.99609,2.35156c-16.33496,4.38818 -35.9873,16.52393 -48.71094,44.67969l9.74219,4.36719c3.84229,-8.52441 8.25146,-15.18018 12.93359,-20.49219c5.12305,2.60352 16.71289,7.55859 33.08984,7.55859c37.03711,0 58.28516,-34.76953 58.28516,-34.76953l2.35156,-3.69531l-3.19141,-3.02344c0,0 -24.39746,-23.01172 -57.44531,-23.01172c-5.9209,0 -10.95996,0.88184 -15.62109,2.18359c0.77685,-4.70312 1.15479,-10.2251 -0.33594,-17.13281c-4.93408,-23.05371 -26.37109,-32.92187 -26.37109,-32.92187zM53.07813,34.09766c4.22021,2.45654 14.10938,8.86035 17.13281,23.01172c1.51172,7.07568 0.96582,12.61865 0,16.29297c-0.96582,3.67432 -2.01562,5.03906 -2.01562,5.03906c-3.59033,2.37256 -7.39062,4.70313 -9.74219,7.39063c-0.5669,0.65088 -1.02881,1.36474 -1.51172,2.01563c-0.31494,-3.17041 -0.5459,-6.36182 -0.50391,-9.40625c0.08398,-7.83154 0.83984,-14.10937 0.83984,-14.10937l-10.58203,-1.51172c0,0 -0.90283,6.88672 -1.00781,15.45313c-0.04199,3.71631 0.10498,7.85254 0.50391,11.92578c-4.38818,-4.45117 -8.56641,-11.42187 -8.56641,-22.67578c0,-15.64209 11.54785,-29.14258 15.45313,-33.42578z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div class="accord_title">Вертикальное озеленение</div>
+                                </div>
+                                <div class="accord_content" id="wedo_1">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                            </div>
+
+                            <div class="accord_item active" data-collapse="#wedo_2">
+                                <div class="accord_header">
+                                    <div class=accord_icon><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;">
+                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                font-weight="none" font-size="none" text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                                <g fill="#6a765a">
+                                                    <path
+                                                        d="M51.0625,20.49219l-2.6875,2.51953c0,0 -21.5,19.58935 -21.5,44.51172c0,28.40771 25.36328,40.81641 25.36328,40.81641l5.87891,2.85547l1.67969,-6.38281c0,0 1.38574,-5.79492 6.71875,-11.92578c5.33301,-6.13086 14.15137,-12.26172 30.23438,-12.26172c23.95654,0 40.66943,12.8706 45.85547,17.13281c-4.13623,5.79492 -19.54736,25.86719 -45.85547,25.86719c-11.98877,0 -20.00928,-2.60352 -24.85937,-4.70312c6.92871,-5.41699 14.10938,-8.48242 20.66016,-10.24609c13.81543,-3.71631 24.52344,-1.34375 24.52344,-1.34375l2.35156,-10.41406c0,0 -3.35937,-0.81885 -8.73437,-1.00781c-5.375,-0.18896 -12.82861,0.16797 -20.99609,2.35156c-16.33496,4.38818 -35.9873,16.52393 -48.71094,44.67969l9.74219,4.36719c3.84229,-8.52441 8.25146,-15.18018 12.93359,-20.49219c5.12305,2.60352 16.71289,7.55859 33.08984,7.55859c37.03711,0 58.28516,-34.76953 58.28516,-34.76953l2.35156,-3.69531l-3.19141,-3.02344c0,0 -24.39746,-23.01172 -57.44531,-23.01172c-5.9209,0 -10.95996,0.88184 -15.62109,2.18359c0.77685,-4.70312 1.15479,-10.2251 -0.33594,-17.13281c-4.93408,-23.05371 -26.37109,-32.92187 -26.37109,-32.92187zM53.07813,34.09766c4.22021,2.45654 14.10938,8.86035 17.13281,23.01172c1.51172,7.07568 0.96582,12.61865 0,16.29297c-0.96582,3.67432 -2.01562,5.03906 -2.01562,5.03906c-3.59033,2.37256 -7.39062,4.70313 -9.74219,7.39063c-0.5669,0.65088 -1.02881,1.36474 -1.51172,2.01563c-0.31494,-3.17041 -0.5459,-6.36182 -0.50391,-9.40625c0.08398,-7.83154 0.83984,-14.10937 0.83984,-14.10937l-10.58203,-1.51172c0,0 -0.90283,6.88672 -1.00781,15.45313c-0.04199,3.71631 0.10498,7.85254 0.50391,11.92578c-4.38818,-4.45117 -8.56641,-11.42187 -8.56641,-22.67578c0,-15.64209 11.54785,-29.14258 15.45313,-33.42578z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div class="accord_title">Горшечное озеленение</div>
+                                </div>
+                                <div class="accord_content" id="wedo_2">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                            </div>
+
+                            <div class="accord_item" data-collapse="#wedo_3">
+                                <div class="accord_header">
+                                    <div class=accord_icon><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;">
+                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                font-weight="none" font-size="none" text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                                <g fill="#6a765a">
+                                                    <path
+                                                        d="M51.0625,20.49219l-2.6875,2.51953c0,0 -21.5,19.58935 -21.5,44.51172c0,28.40771 25.36328,40.81641 25.36328,40.81641l5.87891,2.85547l1.67969,-6.38281c0,0 1.38574,-5.79492 6.71875,-11.92578c5.33301,-6.13086 14.15137,-12.26172 30.23438,-12.26172c23.95654,0 40.66943,12.8706 45.85547,17.13281c-4.13623,5.79492 -19.54736,25.86719 -45.85547,25.86719c-11.98877,0 -20.00928,-2.60352 -24.85937,-4.70312c6.92871,-5.41699 14.10938,-8.48242 20.66016,-10.24609c13.81543,-3.71631 24.52344,-1.34375 24.52344,-1.34375l2.35156,-10.41406c0,0 -3.35937,-0.81885 -8.73437,-1.00781c-5.375,-0.18896 -12.82861,0.16797 -20.99609,2.35156c-16.33496,4.38818 -35.9873,16.52393 -48.71094,44.67969l9.74219,4.36719c3.84229,-8.52441 8.25146,-15.18018 12.93359,-20.49219c5.12305,2.60352 16.71289,7.55859 33.08984,7.55859c37.03711,0 58.28516,-34.76953 58.28516,-34.76953l2.35156,-3.69531l-3.19141,-3.02344c0,0 -24.39746,-23.01172 -57.44531,-23.01172c-5.9209,0 -10.95996,0.88184 -15.62109,2.18359c0.77685,-4.70312 1.15479,-10.2251 -0.33594,-17.13281c-4.93408,-23.05371 -26.37109,-32.92187 -26.37109,-32.92187zM53.07813,34.09766c4.22021,2.45654 14.10938,8.86035 17.13281,23.01172c1.51172,7.07568 0.96582,12.61865 0,16.29297c-0.96582,3.67432 -2.01562,5.03906 -2.01562,5.03906c-3.59033,2.37256 -7.39062,4.70313 -9.74219,7.39063c-0.5669,0.65088 -1.02881,1.36474 -1.51172,2.01563c-0.31494,-3.17041 -0.5459,-6.36182 -0.50391,-9.40625c0.08398,-7.83154 0.83984,-14.10937 0.83984,-14.10937l-10.58203,-1.51172c0,0 -0.90283,6.88672 -1.00781,15.45313c-0.04199,3.71631 0.10498,7.85254 0.50391,11.92578c-4.38818,-4.45117 -8.56641,-11.42187 -8.56641,-22.67578c0,-15.64209 11.54785,-29.14258 15.45313,-33.42578z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div class="accord_title">Натуральный мох</div>
+                                </div>
+                                <div class="accord_content" id="wedo_3">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                            </div>
+
+                            <div class="accord_item" data-collapse="#wedo_4">
+                                <div class="accord_header">
+                                    <div class=accord_icon><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;">
+                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                font-weight="none" font-size="none" text-anchor="none"
+                                                style="mix-blend-mode: normal">
+                                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                                <g fill="#6a765a">
+                                                    <path
+                                                        d="M51.0625,20.49219l-2.6875,2.51953c0,0 -21.5,19.58935 -21.5,44.51172c0,28.40771 25.36328,40.81641 25.36328,40.81641l5.87891,2.85547l1.67969,-6.38281c0,0 1.38574,-5.79492 6.71875,-11.92578c5.33301,-6.13086 14.15137,-12.26172 30.23438,-12.26172c23.95654,0 40.66943,12.8706 45.85547,17.13281c-4.13623,5.79492 -19.54736,25.86719 -45.85547,25.86719c-11.98877,0 -20.00928,-2.60352 -24.85937,-4.70312c6.92871,-5.41699 14.10938,-8.48242 20.66016,-10.24609c13.81543,-3.71631 24.52344,-1.34375 24.52344,-1.34375l2.35156,-10.41406c0,0 -3.35937,-0.81885 -8.73437,-1.00781c-5.375,-0.18896 -12.82861,0.16797 -20.99609,2.35156c-16.33496,4.38818 -35.9873,16.52393 -48.71094,44.67969l9.74219,4.36719c3.84229,-8.52441 8.25146,-15.18018 12.93359,-20.49219c5.12305,2.60352 16.71289,7.55859 33.08984,7.55859c37.03711,0 58.28516,-34.76953 58.28516,-34.76953l2.35156,-3.69531l-3.19141,-3.02344c0,0 -24.39746,-23.01172 -57.44531,-23.01172c-5.9209,0 -10.95996,0.88184 -15.62109,2.18359c0.77685,-4.70312 1.15479,-10.2251 -0.33594,-17.13281c-4.93408,-23.05371 -26.37109,-32.92187 -26.37109,-32.92187zM53.07813,34.09766c4.22021,2.45654 14.10938,8.86035 17.13281,23.01172c1.51172,7.07568 0.96582,12.61865 0,16.29297c-0.96582,3.67432 -2.01562,5.03906 -2.01562,5.03906c-3.59033,2.37256 -7.39062,4.70313 -9.74219,7.39063c-0.5669,0.65088 -1.02881,1.36474 -1.51172,2.01563c-0.31494,-3.17041 -0.5459,-6.36182 -0.50391,-9.40625c0.08398,-7.83154 0.83984,-14.10937 0.83984,-14.10937l-10.58203,-1.51172c0,0 -0.90283,6.88672 -1.00781,15.45313c-0.04199,3.71631 0.10498,7.85254 0.50391,11.92578c-4.38818,-4.45117 -8.56641,-11.42187 -8.56641,-22.67578c0,-15.64209 11.54785,-29.14258 15.45313,-33.42578z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div class="accord_title">Карты и пано из растений</div>
+                                </div>
+                                <div class="accord_content" id="wedo_4">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="advice">
+            <div class="container">
+                <div class="section_header">
+                    <h3 class="section_sup">Advice</h3>
+                    <h2 class="section_title">Консультация</h2>
+                </div>
+
+                <div class="advice">
+                    <div class="advice_item">
+                        <img src="img/5.jpg">
+                    </div>
+                    <div class="advice_item">
+                        <div class="sec_container">
+                            <h2 class="form_title">Оформите заявку на консультацию, и мы предложим лучшее решение </h2>
+                            <div class="form_field">
+                                <input type="text" placeholder="Ваше имя*">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="tel" placeholder="Ваш телеофн*">
+                            </div>
+
+                            <div class="form_field">
+                                <input type="email" placeholder="Почта*">
+                            </div>
+
+                            <div class="form_field">
+                                <textarea type="text" placeholder="Примечание" rows="3" cols="43"></textarea>
+                            </div>
+
+                            <div class="form_button">
+                                <button class="button">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section_header">
+                    <h3 class="section_sup">What we do</h3>
+                    <h2 class="section_title">Наши работы</h2>
+                    <div class="section_text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works">
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_image" src="img/6.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_image" src="img/7.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_image" src="img/8.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_image" src="img/9.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_image_3" src="img/10.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_image" src="img/11.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_image" src="img/12.jpg">
+                        <div class="works_info">
+                            <div class="works_title">Lorem ipsum dolor</div>
+                            <div class="works_text">Lorem ipsum dolor</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!--PAGE-->
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer_container">
+
+                <div class="section_header">
+                    <h2 class="footer_title">Контакты</h2>
+                </div>
+                <hr>
+
+                <div class="contct">
+
+                    <div class="socials">
+                        <a class="socials_content" href="">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a class="socials_content" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="socials_content" href="">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="phone">
+                        <div class="phone_item">
+                            <li class="phone_content">
+                                Тел: +7945525152
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="city">
+                        <div class="city_item">
+                            <li class="city_content">
+                                Адрес: г.Москва
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="create">
+                    <div class="create_item">
+                        <div class="logo_2">
+                            <div class="logo_content">
+                                <i class="fab fa-accessible-icon"></i>
+                            </div>
+                        </div>
+                        <div class="text_logo">
+                            <li>create by webart</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
