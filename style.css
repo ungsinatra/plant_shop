@@ -719,120 +719,86 @@ input {
 }
 
 /*____________________________________*/
-.footer {
-    font-family: "Source Serif Pro", serif;
-
-    width: 100%;
-    height: 300px;
-    margin-top: 5px;
-
-    background-color: #f7f7f7;
-}
-
 /*footer_logo*/
 
 .footer {
+    background-color: #6a765a;
+    /* background-color: white; */
 }
-
-.footer_logo {
-    width: 100%;
-    height: 100px;
+.container {
 }
-
-.footer_title {
-    margin-top: 10px;
-    color: #333;
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.logo_it {
-    margin: 0px 10px;
-    padding-top: 5px;
-    color: #999;
-}
-
-/*contct*/
-.contct {
-    width: 100%;
-    height: 71px;
-    background-color: #f7f7f7;
-
+.footer__wrapper {
+    
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
+    
 }
-.socials {
-    display: flex;
-    margin: 16px 13px;
-
-    width: 218px;
-    height: 45px;
-    margin-left: 10px;
-    font-size: 14px;
-
-    justify-content: center;
+.footer__text-content {
 }
-
-.socials_content {
-    margin: 5px 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 35px;
+.footer__title {
+    color: rgb(241, 241, 241);
+    margin-top: 0;
+    font-size: 42px;
 }
-
-/*phone*/
-.phone {
-    display: flex;
-    justify-content: center;
-    margin: 16px 0;
-    color: rgb(0, 0, 0);
-    display: flex;
-    width: 218px;
-    height: 45px;
-    margin-left: 10px;
+.footer__subtitle {
+    color: rgb(247, 247, 247);
+    margin-top: 10px;
+    font-size: 28px;
 }
-
-.phone_item {
-    margin: 8px 0;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.nav__footer {
+  
+}
+.footer__list {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
     font-size: 24px;
-    list-style: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
 }
+.footer__list a{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    margin-top: 15px;
+   
 
-/*city*/
-.city {
-    display: flex;
-    justify-content: center;
-    display: flex;
-    margin: 8px 0;
-    width: 218px;
-    height: 45px;
 }
-.city_item {
-    color: rgb(0, 0, 0);
-    list-style: none;
+.footer__list a:first-child{
+    margin-top: 0;
+}
+.footer__link {
+    margin-top: 15px;
+    
+}
+.footer__link:first-child{
+    margin-top: 0;
+}
+.footer__contact {
+}
+.contact__item {
+    margin: 0;
+    margin-top: 15px;
     font-size: 24px;
-    margin: 16px 0;
+    color: rgb(255, 255, 255);
 }
-/*CREATE*/
-.create {
-    height: 38px;
-    display: flex;
+.contact__item:first-child{
+    margin-top: 0;
 }
-
-.create_item {
-    width: 100%;
-    height: 38px;
-    list-style: none;
-    margin-top: 5px;
-    background-color: #f7f7f7;
-    display: flex;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
+.createby {
+    color: rgb(255, 255, 255);
 }
-
+.createby a{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.createby p{
+    margin-bottom: 0;
+    font-size: 24px;
+}
 /*logo*/
 
 @media (max-width: 1230px) {
@@ -866,6 +832,24 @@ input {
 
     .stat_item:last-child {
         border-right: 0;
+    }
+    .contact__item{
+        font-size: 16px;
+    }
+    .createby a{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .createby p{
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .footer__list{
+        font-size: 16px;
+    }
+    .footer__title{
+        font-size: 38px;
     }
 }
 
@@ -1097,6 +1081,32 @@ input {
     .button {
     }
     .form_title {
+        font-size: 16px;
+    }
+    .footer__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__item{
         font-size: 24px;
+    }
+    .createby a{
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .footer__contact{
+        margin-top: 20px;
+    }
+    .createby p{
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+    .footer__list{
+        font-size: 24px;
+    }
+    .footer__title{
+        font-size: 38px;
     }
 }
