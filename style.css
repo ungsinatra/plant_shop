@@ -1087,11 +1087,16 @@ input {
         flex-direction: column;
         align-items: center;
     }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .contact__item{
-        font-size: 24px;
+        font-size: 16px;
     }
     .createby a{
-        font-size: 24px;
+        font-size: 16px;
         color: rgb(255, 255, 255);
         text-decoration: none;
     }
@@ -1099,12 +1104,14 @@ input {
         margin-top: 20px;
     }
     .createby p{
+        display: flex;
+        justify-content: center;
         margin-top: 10px;
         margin-bottom: 0;
-        font-size: 24px;
+        font-size: 16px;
     }
     .footer__list{
-        font-size: 24px;
+        font-size: 16px;
     }
     .footer__title{
         font-size: 38px;
