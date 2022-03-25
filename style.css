@@ -800,6 +800,69 @@ input {
     font-size: 24px;
 }
 /*logo*/
+/* ofer */
+
+
+.section-ofert {
+  
+      background-color: #69814a;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1230px;
+    padding: 0;
+    
+}
+.ofert {
+    padding: 150px 0 20px 0 ;
+  
+}
+.title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-family: ;
+    font-size: 42px;
+    color: white;
+}
+.ofer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+  
+
+.ofer-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.ofer-text-text {
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.ofer-btn {
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #69814a;
+    text-transform: uppercase;
+    
+}
+.ofer-btn:hover{
+    background-color: #69814a;
+    color: white;
+    transition: .3s all ease;
+    border: 1px solid white;
+}
 
 @media (max-width: 1230px) {
     /*Текст в интро*/
@@ -819,7 +882,16 @@ input {
     .sub-title {
         font-size: 22px;
     }
-
+    /* ofer */
+    .ofer-text {
+        padding: 15px;  
+    }
+    .title{
+        font-size: 32px;
+    }
+    .ofer-text-text{
+        font-size: 14px;
+    }
     /*Статистика*/
     .stat {
         justify-content: center;
@@ -839,7 +911,7 @@ input {
     .createby a{
         font-size: 16px;
         color: rgb(255, 255, 255);
-        text-decoration: none;
+        /* text-decoration: none; */
     }
     .createby p{
         margin-bottom: 0;
@@ -858,7 +930,9 @@ input {
     .intro {
         min-height: 610px;
     }
-
+    .ofert{
+        padding: 50px 0 20px 0;
+    }
     /*Текст в интро*/
     .intro-title {
         font-size: 36px;
@@ -1009,9 +1083,28 @@ input {
         font-size: 32px;
     }
     .sub-title {
+    
         font-size: 18px;
     }
+    /* ofer */
+.ofert{
+    padding-bottom: 0px;
+}
+    .ofer-text {
+        padding: 15px;  
+    }
+    .title{
+        font-size: 28px;
+    }
+    .ofer-subtitle{
+       margin-top: 0;
+       margin-bottom: 10px;
 
+        font-size: 16px;
+    }
+    .ofer-text-text{
+        font-size: 12px;
+    }
     /*Текст в секции*/
     .section_title {
         font-size: 24px;
@@ -1117,3 +1210,5 @@ input {
         font-size: 38px;
     }
 }
+
+
