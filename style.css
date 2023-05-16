@@ -211,7 +211,7 @@ h6 {
     width: 100%;
     height: 100vh;
     min-height: 765px;
-    background-image: url(https://images.pexels.com/photos/1420004/pexels-photo-1420004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url('./img/main.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
