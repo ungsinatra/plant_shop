@@ -1,0 +1,149 @@
+.cart {
+  max-width: 100%;
+  width: 100%;
+  margin: 51px 0 87px 0;
+  &__container {
+  }
+  &__items {
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.table {
+  max-width: 782px;
+  width: 100%;
+  display: flex;
+  height: 381px;
+  flex-direction: column;
+  &__titles {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+  }
+  &__title {
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  &__items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.product-name {
+}
+.price-name {
+  margin-left: 245px;
+}
+.quantity-name {
+  margin-left: 108px;
+}
+.total-name {
+  margin-left: 97px;
+}
+.row {
+  display: flex;
+  width: 782px;
+  margin: 11px 0 0 0;
+  height: 70px;
+  background: #fbfbfb;
+  &__content {
+    display: flex;
+    margin-left: 14px;
+    align-items: center;
+  }
+  &__img {
+    width: 70px;
+  }
+  &__subtitle {
+    margin: 0;
+    color: #a5a5a5;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__title {
+    margin: 0 0 6px 0;
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  &__main {
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__price {
+    margin-left: 98px;
+    color: #727272;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  &__features {
+    display: flex;
+    margin-left: 94px;
+  }
+  &__button {
+    width: 21px;
+    height: 25px;
+    border-radius: 29px;
+    background: linear-gradient(
+      180deg,
+      #46a358 0%,
+      rgba(70, 163, 88, 0.8) 100%
+    );
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__total {
+    margin-left: 87px;
+    color: #46a358;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  &__count {
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    margin: 0 11px 0 11px;
+  }
+  &__clear-btn {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-left: 62px;
+    background-image: url("../assets/img/icons/clear.svg");
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+  }
+}

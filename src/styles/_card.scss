@@ -1,0 +1,127 @@
+.card {
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    .card__features {
+      visibility: visible;
+    }
+  }
+  .card__container {
+    max-width: 258px;
+    width: 100%;
+    min-height: 350px;
+    height: 100%;
+  }
+  .card__img-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 258px;
+    height: 300px;
+    background: #fbfbfb;
+  }
+  .card__img {
+    margin: 0;
+    width: 250px;
+    height: 250px;
+    // background-color: aqua;
+  }
+  .card__info {
+    margin: 12px 0 0 0;
+  }
+  .card__name {
+    margin: 0;
+    color: #3d3d3d;
+    font-size: 16px;
+    font-family: Cera Pro;
+    line-height: 16px;
+  }
+  .card__prices {
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+    .card__price {
+      margin: 6px 0 0 0;
+      color: #46a358;
+      font-size: 18px;
+      font-family: Cera Pro;
+      font-weight: 700;
+      line-height: 16px;
+    }
+    .price__discount {
+      color: #a5a5a5;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: Cera Pro;
+      line-height: 16px;
+      text-decoration: line-through;
+    }
+  }
+  .card__features {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    top: 258px;
+    left: 67px;
+    justify-content: space-between;
+    width: 125px;
+    height: 35px;
+  }
+  .card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.discount {
+  position: absolute;
+  // top: 25px;
+  top: 14px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 29px;
+  background: #46a358;
+  .discount__value {
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Cera Pro;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+.cart-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/img/cards/icons/cart.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+.like {
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/img/cards/icons/like.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+.like-active {
+  background-image: url("../assets/img/cards/icons/like-active.svg");
+}
+.search {
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/img/search_icon.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}

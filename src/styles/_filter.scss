@@ -1,0 +1,87 @@
+.filter {
+  box-sizing: border-box;
+  max-width: 310px;
+  width: 100%;
+  background: #fbfbfb;
+  padding-top: 14px;
+  padding-left: 18px;
+  padding: 14px 24px 19px 18px;
+  .filter__title {
+    margin: 0 0 7px 0;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-family: Cera Pro;
+    font-weight: 700;
+    line-height: 16px;
+  }
+}
+
+.price-range {
+  max-width: 226px;
+  width: 100%;
+  // height: 133px;
+  margin-left: 12px;
+  margin-bottom: 46px;
+  .price-range__container {
+    display: flex;
+    margin: 20px 0 0 0;
+    height: 95px;
+    flex-direction: column;
+  }
+  .range__button {
+    width: 90px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Cera Pro;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 16px 0 0 0;
+  }
+  .range__value {
+    color: #3d3d3d;
+    font-size: 15px;
+    font-family: Cera Pro;
+    line-height: 16px;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .range__price {
+    color: #46a358;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Cera Pro;
+    line-height: 16px;
+  }
+  .input__range {
+    max-width: 214px;
+    width: 100%;
+    margin: 0;
+    color: #46a358;
+    // margin: 29px 0 21px 0;
+  }
+}
+
+.size {
+  margin-bottom: 0;
+}
+.input[type="range"]::-webkit-slider-thumb {
+  background-color: #46a358;
+}
+
+// <div className="sort">
+// <div className="sort__container">
+//   <ul className="sort__lists">
+//     <li className="sort__list">All Plants</li>
+//     <li className="sort__list">New Arrivals</li>
+//     <li className="sort__list">Sale</li>
+//   </ul>
+//   <label htmlFor="selector__sort">Short by:</label>
+//   <select name="" id="selector__sort">
+//     <option value="default">Default sorting</option>
+//     <option value="default">Default sorting</option>
+//     <option value="default">Default sorting</option>
+//   </select>
+// </div>
+// </div>
+

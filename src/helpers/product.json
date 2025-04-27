@@ -1,0 +1,197 @@
+{
+"products":[
+  {
+   "name": "Generic Rubber Mouse",
+   "price": "483.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "9540",
+   "size": "837",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "1"
+  },
+  {
+   "name": "Handcrafted Soft Pants",
+   "price": "341.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "447",
+   "size": "338",
+   "images":[
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ] ,
+   "id": "2"
+  },
+  {
+   "name": "Rustic Soft Pizza",
+   "price": "499.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "84249",
+   "size": "78277",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "3"
+  },
+  {
+   "name": "Unbranded Bronze Ball",
+   "price": "369.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "3536",
+   "size": "3295",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "4"
+  },
+  {
+   "name": "Handmade Rubber Pants",
+   "price": "578.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "39081",
+   "size": "41807",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "5"
+  },
+  {
+   "name": "Bespoke Frozen Salad",
+   "price": "522.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "50582",
+   "size": "18025",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "6"
+  },
+  {
+   "name": "Handcrafted Fresh Shirt",
+   "price": "28.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "324",
+   "size": "46447",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "7"
+  },
+  {
+   "name": "Oriental Wooden Soap",
+   "price": "998.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "866",
+   "size": "37444",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "8"
+  },
+  {
+   "name": "Modern Metal Hat",
+   "price": "775.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "821",
+   "size": "79947",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "9"
+  },
+  {
+   "name": "Practical Bronze Shirt",
+   "price": "249.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "54033",
+   "size": "537",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "10"
+  },
+  {
+   "name": "Intelligent Metal Soap",
+   "price": "251.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "7089",
+   "size": "6596",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "11"
+  },
+  {
+   "name": "Unbranded Plastic Table",
+   "price": "872.00",
+   "dataUpload": null,
+   "isDiscount": false,
+   "mainImg": "https://loremflickr.com/640/480",
+   "categories": "777",
+   "size": "161",
+   "images": [
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480",
+    "https://loremflickr.com/640/480"
+   ],
+   "id": "12"
+  }
+ ]
+
+}
