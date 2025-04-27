@@ -1,0 +1,51 @@
+.footer {
+  width: 100%;
+  &__form {
+    max-width: 354px;
+  }
+  .footer__title {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 0 18px 0;
+  }
+  &__text {
+    color: #727272;
+    font-size: 13px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 17px 0 0 0;
+  }
+  &__form-input {
+    text-align: center;
+    padding-left: 11px;
+    max-width: 269px;
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    border-radius: 4px;
+    border-right: none;
+    border: none;
+  }
+  &__form-button {
+    width: 85px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  background: rgba(70, 163, 88, 0.1);
+}
+// .<div className="footer-info">
+//         <div className="footer-info__container">
+//           <img src={headerLogo} alt="logo" className="logo" />
+//         </div>
+//       </div>

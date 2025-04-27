@@ -1,0 +1,10 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  .products__lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 258px);
+    column-gap: 33px;
+    row-gap: 70px;
+  }
+}

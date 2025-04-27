@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.container img {
+  transition: transform 0.3s ease;
+}
+
+.container:hover img {
+  transform: scale(1.2); 
+}

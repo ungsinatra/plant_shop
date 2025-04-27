@@ -1,0 +1,25 @@
+// <div className="footer">
+// <div className="subscription">
+//   <div className="subscription__container">
+//     <div className="benefit">
+//       <img src="" alt="benefit__img" className="benefit__img" />
+//       <h4 className="benefit__title">Garden Care</h4>
+//       <p className="benefit__text">
+//         We are an online plant shop offering a wide range of cheap and
+//         trendy plants.
+//       </p>
+//     </div>
+.subscription {
+  box-sizing: border-box;
+  background: #fbfbfb;
+  &__img {
+    background-image: url("../assets/img/footer/garden-care.svg");
+  }
+  &__container {
+    height: 201px;
+    max-width: 1152px;
+    margin: 25px auto 24px auto;
+    display: flex;
+    align-items: center;
+  }
+}

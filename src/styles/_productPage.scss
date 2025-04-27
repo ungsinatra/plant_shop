@@ -1,0 +1,343 @@
+.product-page {
+  max-width: 100%;
+  width: 100%;
+  margin: 43px 0 127px 0;
+  &__container {
+    width: 100%;
+  }
+}
+.product {
+  &__container {
+    width: 100%;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__text {
+    color: #a5a5a5;
+    font-size: 15px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__atribut-text {
+    color: #727272;
+  }
+  &__description {
+    max-width: 100%;
+    &__description-title {
+      color: #46a358;
+      font-size: 17px;
+      font-family: Cera Pro;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+      padding-bottom: 9px;
+      border: 3px solid #46a358;
+    }
+  }
+}
+.product-images {
+  max-width: 573px;
+  width: 100%;
+  display: flex;
+  gap: 29px;
+  &__column {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+  }
+  &__column-img {
+    background-color: #fbfbfb;
+    margin-bottom: 16px;
+    max-width: 100px;
+    width: 100%;
+  }
+  &__column-img-active {
+    border: 1px solid #46a358;
+  }
+  &__main-img-wrapper {
+    background-color: #fbfbfb;
+    max-width: 404px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__main-image {
+    max-width: 100%;
+  }
+}
+.product-content {
+  max-width: 574px;
+  width: 100%;
+  &__title {
+    margin: 0 0 21px 0;
+    color: #3d3d3d;
+    font-size: 28px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  &__main {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+  }
+  &__desc {
+    margin: 16px 0 24px 0;
+    color: #727272;
+    font-size: 14px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.price {
+  margin: 0;
+  color: #46a358;
+  font-size: 22px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.topic {
+  display: block;
+  color: #3d3d3d;
+  font-size: 15px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.size {
+  display: flex;
+  width: 142px;
+  justify-content: space-between;
+  &__value {
+    cursor: pointer;
+    text-align: center;
+    width: 28px;
+    font-weight: 500px;
+    font-size: 14px;
+    // line-height: 21px;
+    height: 28px;
+    border-radius: 28px;
+    border: 1px solid #666666;
+  }
+  &__value-active {
+    color: #46a358;
+    border: 1px solid #46a358;
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+.feature__like {
+}
+.feature {
+  margin: 23px 0 0 0;
+  max-width: 465px;
+  display: flex;
+  justify-content: space-between;
+  &__like {
+    width: 40px;
+    border: 1px solid #46a358;
+    height: 40px;
+    background-color: #fff;
+    background-image: url("../assets/img/cards/icons/card-like.svg");
+    color: #fff;
+    background-size: 20px 20px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+  }
+  &__button {
+    outline: auto;
+    width: 130px;
+    height: 40px;
+    color: #46a358;
+    font-size: 14px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: 46a358;
+    color: white;
+    text-transform: uppercase;
+  }
+  &__button-active {
+    background-color: #46a358;
+    color: white;
+  }
+  &__count {
+    display: flex;
+    margin: 0 23px 0 23px;
+    color: #3d3d3d;
+    font-size: 20px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__add-button {
+    display: flex;
+    width: 119px;
+    height: 38px;
+    justify-content: space-between;
+    .feature__button {
+      width: 33px;
+      height: 38px;
+      font-size: 24px;
+      color: white;
+      border-radius: 29px;
+      background: linear-gradient(
+        180deg,
+        #46a358 0%,
+        rgba(70, 163, 88, 0.8) 100%
+      );
+    }
+  }
+  &__count {
+    width: 10px;
+  }
+  &__cart_buttons {
+    width: 320px;
+    justify-content: space-between;
+    display: flex;
+  }
+}
+.product__local-infos {
+  width: 191px;
+  height: 69px;
+}
+
+.share {
+  max-width: 269px;
+  width: 100%;
+  display: flex;
+  &__icons {
+    width: 112px;
+  }
+  &__icon {
+    width: 20px;
+  }
+}
+
+.facebook {
+  background-image: url("../assets/img/icons/Facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.message {
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-image: url("../assets/img/icons/Message.svg");
+}
+
+.linkedin {
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-image: url("../assets/img/icons/Linkedin.svg");
+}
+.twitter {
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-image: url("../assets/img/icons/Twitter.svg");
+}
+.description {
+  margin: 92px 0 127px 0;
+  width: 100%;
+  &__titles {
+    display: flex;
+    height: 28px;
+  }
+  &__title {
+    width: 161px;
+    color: #3d3d3d;
+    font-size: 17px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 30px 0 0;
+  }
+  &__title-active {
+    color: #46a358;
+    font-size: 17px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #46a358;
+  }
+  &__text {
+    margin: 18px 0 18px 0;
+  }
+}
+
+//
+
+//       <div className={"prdouct__description"}>
+//         <p className="prdouct__description-title">Product Description</p>
+//         <p className="text">
+//           The ceramic cylinder planters come with a wooden stand to help
+//           elevate your plants off the ground. The ceramic cylinder
+//           planters come with a wooden stand to help elevate your plants
+//           off the ground. Lorem ipsum dolor sit amet, consectetur
+//           adipiscing elit. Nam fringilla augue nec est tristique auctor.
+//           Donec non est at libero vulputate rutrum. Morbi ornare lectus
+//           quis justo gravida semper. Nulla tellus mi, vulputate adipiscing
+//           cursus eu, suscipit id nulla. Pellentesque aliquet, sem eget
+//           laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis
+//           eros eget velit. Donec ac tempus ante. Fusce ultricies massa
+//           massa. Fusce aliquam, purus eget sagittis vulputate, sapien
+//           libero hendrerit est, sed commodo augue nisi non neque. Lorem
+//           ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor,
+//           lorem et placerat vestibulum, metus nisi posuere nisl, in
+//           accumsan elit odio quis mi. Cras neque metus, consequat et
+//           blandit et, luctus a nunc. Etiam gravida vehicula tellus, in
+//           imperdiet ligula euismod eget. The ceramic cylinder planters
+//           come with a wooden stand to help elevate your plants off the
+//           ground.{" "}
+//         </p>
+//         <span className="topic">Living Room:</span>
+//         <p className="text">
+//           The ceramic cylinder planters come with a wooden stand to help
+//           elevate your plants off the ground. The ceramic cylinder
+//           planters come with a wooden stand to help elevate your plants
+//           off the ground. Lorem ipsum dolor sit amet, consectetur
+//           adipiscing elit.
+//         </p>
+//         <span className="Dining Room:">Dining Room:</span>
+//         <p className="text">
+//           The benefits of houseplants are endless. In addition to cleaning
+//           the air of harmful toxins, they can help to improve your mood,
+//           reduce stress and provide you with better sleep. Fill every room
+//           of your home with houseplants and their restorative qualities
+//           will improve your life.
+//         </p>
+//         <span className="Office:">Dining Room:</span>
+//         <p className="text">
+//           The ceramic cylinder planters come with a wooden stand to help
+//           elevate your plants off the ground. The ceramic cylinder
+//           planters come with a wooden stand to help elevate your plants
+//           off the ground. Lorem ipsum dolor sit amet, consectetur
+//           adipiscing elit.
+//         </p>
+//       </div>
+//       <div className={"product__reviews"}></div>
+//     </div>
+//   </div>
+// </div>
+// </div>

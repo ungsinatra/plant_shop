@@ -1,0 +1,22 @@
+.benefit {
+  width: 239px;
+  height: 193px;
+  border-right: 2px solid rgba(70, 163, 88, 0.1);
+  .benefit__title {
+    margin: 17px 0 0 0;
+  }
+  &__img {
+  }
+  &__text {
+    color: #727272;
+    font-size: 14px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 204px;
+    margin: 9px 0 0 0;
+    // white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

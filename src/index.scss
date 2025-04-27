@@ -1,0 +1,27 @@
+@import url("../src/assets/fonts/fonts.css");
+:root {
+  box-sizing: border-box;
+  font-family: "Cera pro";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  box-sizing: border-box;
+}
+
+// .button:active {
+//   transition: 0.6s ease-in-out;
+//   background-color: #ffffff;
+//   border: 1px solid #46a358;
+//   color: #46a358;
+// }
+
+// .button:hover {
+//   transition: 0.4s ease-in-out;
+//   background-color: #ffffff;
+//   // border: 1px solid #46a358;
+//   color: #46a358;
+// }
