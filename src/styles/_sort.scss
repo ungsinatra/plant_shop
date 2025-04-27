@@ -1,0 +1,35 @@
+.sort {
+  width: 100%;
+  margin-bottom: 31px;
+  .sort__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sort__lists {
+    margin: 0;
+    padding: 0;
+    max-width: 258px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 23px;
+    .sort__list {
+      color: #3d3d3d;
+      font-size: 15px;
+      display: block;
+      font-family: Cera Pro;
+      line-height: 16px;
+      padding-bottom: 6px;
+    }
+    .sort__list-active {
+      color: #46a358;
+      font-size: 15px;
+      font-family: Cera Pro;
+      font-weight: 700;
+      line-height: 16px;
+      border-bottom: 3px solid #46a358;
+    }
+  }
+}

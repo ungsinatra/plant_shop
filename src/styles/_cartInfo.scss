@@ -1,0 +1,198 @@
+.cart-info {
+  width: 331px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+  }
+  &__title {
+    margin: 0;
+    width: 100%;
+    padding: 0 0 11px 0;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  &__items {
+    width: 100%;
+    margin: 0 0 29px 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    margin: 0 0 11px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item-text {
+    margin: 0;
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__item-main-text {
+    color: #3d3d3d;
+    text-align: right;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  &__price {
+    color: #46a358;
+    text-align: right;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  &__button {
+    width: 332px;
+    height: 40px;
+    color: #fff;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  &__link {
+    margin: 14px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    color: #46a358;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__item-text-weigth {
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+}
+
+.total-count {
+  margin: 50px 0 0 0;
+}
+.coupon {
+  width: 100%;
+  &__title {
+    color: #3d3d3d;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  &__form {
+    margin: 8px 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    outline: none;
+    box-sizing: border-box;
+    padding: 13px 0px 12px 9px;
+    color: #a5a5a5;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    width: 230px;
+    height: 40px;
+    // padding: 0;
+    margin: 0;
+    border: 1px solid #46a358;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  &__button {
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    // &:hover {
+    //   transition: 0.2s ease;
+    //   background-color: #ffffff;
+    //   border: 1px solid #46a358;
+    //   color: #46a358;
+    // }
+    // border-top-rigth-radius: 3px;
+
+    height: 40px;
+    width: 102px;
+    border-left: none;
+  }
+}
+.coupon-margins {
+  margin: 11px 0 30px 0;
+}
+
+// <div className="cart-info">
+// <div className="cart-info__container">
+//   <h2 className="cart-info__title ">Cart Totals</h2>
+//   <div className="coupon">
+//     <label htmlFor="coupon" className="coupon__title">
+//       Coupon Apply
+//     </label>
+//     <div className="coupon__form">
+//       <input className="coupon__input" type="text" id="coupon" />
+//       <Button
+//         className="coupon__button button"
+//         disable={false}
+//         onClick={() => console.log()}
+//         children="Apply"
+//       />
+//     </div>
+//   </div>
+//   <ul className="cart-info__items">
+//     <li className="cart-info__item">
+//       <p className="cart-info__item-text">Subtotal</p>
+//       <span className="cart-info__item-main-text">$2,683.00</span>
+//     </li>
+//     <li className="cart-info__item">
+//       <p className="cart-info__item-text">Coupon Discount</p>
+//       <span className="cart-info__item-main-text">(-) 00.00</span>
+//     </li>
+//     <li className="cart-info__item">
+//       <p className="cart-info__item-text">Shiping</p>
+//       <span className="cart-info__item-main-text">$16.00</span>
+//     </li>
+//     <li className="cart-info__item">
+//       <p className="cart-info__item-text">Total</p>
+//       <span className="cart-info__item-main-text price">$2,699.00</span>
+//     </li>
+//   </ul>
+//   <Button
+//     className="cart-info__button button"
+//     disable={false}
+//     onClick={() => console.log()}
+//     children="Proceed To Checkout"
+//   />
+//   <Link to={`/`}>
+//     <p>Continue Shopping</p>
+//   </Link>
+// </div>
+// </div>
